@@ -7,6 +7,8 @@ import ImageProjectC3 from '../../Style/Images/Project/Interior-1-3.jpg';
 import ImageProjectC4 from '../../Style/Images/Project/Interior-1-4.jpg';
 import ImageProjectC6 from '../../Style/Images/Project/Interior-1-6.jpg';
 import ImageProjectC7 from '../../Style/Images/Project/Interior-1-7.jpg';
+// import ImageProjectC7 from '../../Style/Images/Project/Interior-1-7.jpg';
+
 
 // import blender from '../../Style/Images/SVG/blender.png';
 // import unreal from '../../Style/Images/SVG/unreal.png';
@@ -78,7 +80,7 @@ function Interior1({ }) {
                         À l'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur, nous vous aidons dans l’aménagement de vos espaces. Du design moderne au traditionnelle, minimaliste etc. nous modélisons espaces, mobiliers et décors intérieurs afin de vous assurer de toute la commodité et de l’esthétique qu’auront vos projets avant leur réalisation.
                     </p>
 
-                    <a className='the_links' href='https://papemndiaye1.github.io/MSAT-WebSite/' target="_blank">
+                    <a className='the_links' href='https://papemndiaye1.github.io/ArchViz_Interior_Design_1/' target="_blank">
                         Experience VR/AR <ion-icon name="arrow-forward-outline"></ion-icon>
                     </a>
                     <div className='TheImageContainer'>

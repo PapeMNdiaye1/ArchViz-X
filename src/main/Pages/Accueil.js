@@ -191,7 +191,6 @@ function AccueilSlider() {
     }
 
     useEffect(() => {
-
         let sliderBtnContainer = document.querySelector(".slider_btn_container")
         let AllDot = sliderBtnContainer.childNodes
 
@@ -202,16 +201,16 @@ function AccueilSlider() {
         AllDot[0].classList.add('ativeDot')
         let theCourentSlide = 0
 
-        let windowWidth = window.innerWidth;
-        if (windowWidth >= 1000) {
-            setInterval(function () {
-                AllDot[theCourentSlide].click()
-                theCourentSlide++
-                if (theCourentSlide >= AllDot.length) {
-                    return theCourentSlide = 0
-                }
-            }, 66000);
-        }
+        // let windowWidth = window.innerWidth;
+        // if (windowWidth >= 1000) {
+        //     setInterval(function () {
+        //         theCourentSlide++
+        //         AllDot[theCourentSlide].click()
+        //         if (theCourentSlide >= AllDot.length) {
+        //             return theCourentSlide = 0
+        //         }
+        //     }, 66000);
+        // }
 
         return () => {
             sliderBtnContainer.innerHTML = '';
