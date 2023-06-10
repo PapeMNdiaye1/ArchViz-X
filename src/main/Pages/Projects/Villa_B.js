@@ -67,7 +67,7 @@ function SmallHouse1({ }) {
                         Villa Saly
                     </h1>
                     <h3 className='project_description'>
-                        par Bokar Ndiaye | 06 Juin, 2014 |
+                        par Bokar Ndiaye | 06 Juin, 2023 |
                     </h3>
                     <p>
                         Des designs Modernes, épurés, minimalistes etc.… nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives.                                          </p>

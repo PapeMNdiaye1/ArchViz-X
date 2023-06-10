@@ -2,15 +2,11 @@ import { React, useEffect, useState, Fragment } from 'react';
 import { Link } from "react-router-dom";
 
 import ImageProjectA1 from '../Style/Images/Project/Exterior-1.jpg';
-import ImageProjectA2 from '../Style/Images/Project/Exterior-2.jpg';
-
-import ImageProjectB1 from '../Style/Images/Project/Immeuble-1.jpg';
 
 import ImageProjectC1 from '../Style/Images/Project/Interior-1-1.jpg';
 import ImageProjectC2 from '../Style/Images/Project/Interior-1-2.jpg';
 import ImageProjectC3 from '../Style/Images/Project/Interior-1-3.jpg';
 import ImageProjectC4 from '../Style/Images/Project/Interior-1-4.jpg';
-import ImageProjectC5 from '../Style/Images/Project/Interior-1-5.jpg';
 
 import ImageProjectD1 from '../Style/Images/Project/NFT-1.jpg';
 
@@ -19,14 +15,11 @@ import ImageProjectE2 from '../Style/Images/Project/Pharmacie-2.jpg';
 import ImageProjectE3 from '../Style/Images/Project/Pharmacie-3.jpg';
 import ImageProjectE4 from '../Style/Images/Project/Pharmacie-4.jpg';
 
-import ImageProjectE6 from '../Style/Images/Project/Pharmacie-6.jpg';
 
 import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
 import ImageProjectF3 from '../Style/Images/Project/Hangar-3.jpg';
-
 import ImageProjectG2 from '../Style/Images/Project/MSAD_2.jpg';
 
-import ImageProjectH1 from '../Style/Images/Project/Villa_A-1.jpg';
 import ImageProjectH2 from '../Style/Images/Project/Villa_A-2.jpg';
 import ImageProjectH3 from '../Style/Images/Project/Villa_A-3.jpg';
 
@@ -131,11 +124,11 @@ function Accueil({ GetImageToApp }) {
                     color={'#93A490'} textcolor={'#222'} theKey={2} side={'left'} The_Experience={false} link={'/SmallHouse1'} />
 
                 <OneBigProject title={'Décoration Intérieur'} image={ImageProjectC2}
-                    description={"À l'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces. Du design moderne au traditionnelle, minimaliste etc..."}
+                    description={"À l'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces."}
                     color={'#EAEAEA'} textcolor={'#222'} theKey={3} side={'right'} link={'/Interior1'} The_Experience={true} The_Experience_Link={'https://papemndiaye1.github.io/ArchViz_Interior_Design_1/'} />
 
                 <OneBigProject title={'Espace Sportif'} image={ImageProjectK1}
-                    description={"Nous avons une vaste expérience dans l'aménagement d'espaces communs et de bureaux, quelle que soit leur typologie, leur vocation, leur stratégie et leur positionnement."}
+                    description={"Nous avons une vaste expérience dans l'aménagement d'espaces communs et de bureaux, quelle que soient leur typologie, leur vocation, leur stratégie et leur positionnement."}
                     color={'#c6b282'} textcolor={'#222'} theKey={4} link={'/Gym'} side={'left'} The_Experience={false} />
 
                 <OneBigProject title={'La 3D dans le domaine des Industries'} image={ImageProjectF2}
@@ -147,7 +140,7 @@ function Accueil({ GetImageToApp }) {
                     color={'#F4EFE4'} textcolor={'#222'} theKey={6} side={'left'} The_Experience={false} link={'/Pharmacie1'} />
 
                 <OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectI2}
-                    description={"Des designs Modernes, épurés, etc…. nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
+                    description={"Des designs Modernes, épurés, etc… nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
                     color={'#EAEAEA'} textcolor={'#222'} The_Experience={true} The_Experience_Link={'https://villa-r-1.netlify.app/'} theKey={7} link={'/Villa-Saly'} side={'right'} />
 
             </section>
@@ -268,7 +261,7 @@ function TheGallery({ GetImageOnAccueil }) {
 
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC3} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL6} title={"Villa Al Amin"} date={'26 Janvier, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI1} title={'Villa Saly'} date={'06 Juin, 2014'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI1} title={'Villa Saly'} date={'06 Juin, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL1} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa'} image={ImageProjectH2} title={'Immeuble Thiès Grand Standing'} date={'15 Avril, 2022'} />
 
@@ -280,7 +273,7 @@ function TheGallery({ GetImageOnAccueil }) {
 
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE4} title={'Décoration Interieur'} date={'27 Mai, 2022'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa'} image={ImageProjectH3} title={'Immeuble Thiès Grand Standing'} date={'06 Juin, 2012'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI3} title={'Villa Saly'} date={'06 Juin, 2014'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI3} title={'Villa Saly'} date={'06 Juin, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC2} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL3} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
 
