@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import ImageProjectA4 from '../Style/Images/Project/Exterior-0.jpg';
 import ImageProjectB3 from '../Style/Images/Project/Immeuble-0.jpg';
-import ImageProjectC1 from '../Style/Images/Project/Interior-1-1.jpg';
+// import ImageProjectC1 from '../Style/Images/Project/Interior-1-1.jpg';
 import ImageProjectC7 from '../Style/Images/Project/Interior-1-2.jpg';
 import ImageProjectD1 from '../Style/Images/Project/NFT-1.jpg';
 import ImageProjectE7 from '../Style/Images/Project/Pharmacie-3.jpg';
@@ -62,7 +62,7 @@ function Services() {
                     </p>}
                 TheGalerieElements={
                     <div className='project_container'>
-                        <OneGalerieElement image={ImageProjectJ1} title={'Villa Saly'} link={'/Villa-Saly'} date={'03 Juin, 2022'} />
+                        <OneGalerieElement image={ImageProjectJ1} title={'Villa Saly'} link={'/Villa-Saly'} date={'06 Juin, 2023'} />
                         <OneGalerieElement image={ImageProjectG2} title={'Manufacture des Arts Décoratifs de Thiés'} link={'/MSAD'} date={'03 Septembre, 2022'} />
                         <OneGalerieElement image={ImageProjectL1} title={'Villa Al Amin'} link={'/VillaTerangaAlAmin'} date={'26 Janvier, 2023'} />
                     </div>

@@ -101,6 +101,7 @@ function Accueil({ GetImageToApp }) {
                             <ion-icon name="logo-instagram"></ion-icon>
                         </div>
                     </a>
+
                     <a href="https://api.whatsapp.com/send?phone=221777278655&text=Message provenant de ArchViz.sn" target="_blank">
                         <div className="network">
                             <ion-icon name="logo-whatsapp"></ion-icon>
@@ -111,7 +112,6 @@ function Accueil({ GetImageToApp }) {
                             <ion-icon name="mail-outline"></ion-icon>
                         </div>
                     </a>
-
                 </div>
             </section>
             <section className='AccueilBigProjectsSection'>

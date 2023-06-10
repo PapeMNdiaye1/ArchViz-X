@@ -91,7 +91,7 @@ function Traveaux() {
 
 
                 <OneBigProject title={'Décoration Interieur'} image={ImageProjectC3}
-                    description={'À l\'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces. Du design moderne au traditionnelle, minimaliste etc...'}
+                    description={'À l\'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces.'}
                     color={'#F1F1F1'} textcolor={'#222'} theKey={4} link={'/Interior1'} side={'right'} The_Experience={true} The_Experience_Link={'https://papemndiaye1.github.io/ArchViz_Interior_Design_1/'} />
 
                 <OneBigProject title={'Design de Maison Moderne'} image={ImageProjectA1}
