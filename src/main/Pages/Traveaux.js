@@ -33,7 +33,7 @@ import ImageProjectK5 from '../Style/Images/Project/Pharmacie_C-5.jpg';
 
 import ImageProjectL1 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg';
 import ImageProjectL2 from '../Style/Images/Project/Villa_Teranga_Al_Amin-2.jpg';
-import ImageProjectL3 from '../Style/Images/Project/Villa_Teranga_Al_Amin-3.jpg';
+// import ImageProjectL3 from '../Style/Images/Project/Villa_Teranga_Al_Amin-3.jpg';
 import ImageProjectL4 from '../Style/Images/Project/Villa_Teranga_Al_Amin-4.jpg';
 // import ImageProjectL5 from '../Style/Images/Project/Villa_Teranga_Al_Amin-5.jpg';
 import ImageProjectL6 from '../Style/Images/Project/Villa_Teranga_Al_Amin-6.jpg';
@@ -75,6 +75,7 @@ function Traveaux() {
                 </p>
             </section>
             <section className='AccueilBigProjectsSection'>
+
                 <OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectL1}
                     description={"Les visites virtuelles offrent de nombreux avantages pour les acheteurs, propriétaires et agents immobiliers. Pour les acheteurs, elles permettent de visualiser les propriétés sans se déplacer. Pour les agents immobiliers, elles peuvent diffuser les propriétés à plus de gens, ce qui peut conduire à une vente plus rapide. Les visites virtuelles sont une solution pratique pour toutes les parties impliquées dans le processus immobilier."}
                     color={'#664f3c'} textcolor={'#f1f1f1'} theKey={1} link={'/VillaTerangaAlAmin'} side={'left'}
@@ -88,7 +89,6 @@ function Traveaux() {
                 <OneBigProject title={'Design pour les Commerces'} image={ImageProjectJ1}
                     description={"Nous avons une grande expérience dans l’agencement de point de vente, et l’aménagement de bureaux. Quelle que soit la typologie du point de vente, sa vocation, sa stratégie et son positionnement."}
                     color={'#8a6f54'} textcolor={'#f1f1f1'} theKey={3} link={'/Pharmacie2'} side={'left'} The_Experience={false} />
-
 
                 <OneBigProject title={'Décoration Interieur'} image={ImageProjectC3}
                     description={'À l\'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces.'}
@@ -125,7 +125,6 @@ function Traveaux() {
                 <OneBigProject title={'La 3D dans le domaine des Industries'} image={ImageProjectF2}
                     description={"Le rendu et l'animation avec des temps de production de plus en plus rapide ont ouvert la porte à un monde de variations infinies dans la conception graphique adaptée à vos demandes uniques."}
                     color={'#F1F1F1'} textcolor={'#222'} theKey={12} link={'/Hangar1'} side={'right'} The_Experience={false} />
-
 
             </section>
         </div>

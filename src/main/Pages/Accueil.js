@@ -18,6 +18,7 @@ import ImageProjectE4 from '../Style/Images/Project/Pharmacie-4.jpg';
 
 import ImageProjectF2 from '../Style/Images/Project/Hangar-2.jpg';
 import ImageProjectF3 from '../Style/Images/Project/Hangar-3.jpg';
+
 import ImageProjectG2 from '../Style/Images/Project/MSAD_2.jpg';
 
 import ImageProjectH2 from '../Style/Images/Project/Villa_A-2.jpg';
@@ -31,7 +32,6 @@ import ImageProjectJ1 from '../Style/Images/Project/Pharmacie_B-1.jpg';
 
 import ImageProjectK2 from '../Style/Images/Project/Pharmacie_C-2.jpg';
 import ImageProjectK1 from '../Style/Images/Project/Pharmacie_C-1.jpg';
-
 import ImageProjectK5 from '../Style/Images/Project/Pharmacie_C-5.jpg';
 
 
@@ -39,7 +39,6 @@ import ImageProjectL1 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg'
 import ImageProjectL2 from '../Style/Images/Project/Villa_Teranga_Al_Amin-2.jpg';
 import ImageProjectL3 from '../Style/Images/Project/Villa_Teranga_Al_Amin-3.jpg';
 import ImageProjectL4 from '../Style/Images/Project/Villa_Teranga_Al_Amin-4.jpg';
-
 import ImageProjectL6 from '../Style/Images/Project/Villa_Teranga_Al_Amin-6.jpg';
 
 
