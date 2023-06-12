@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 
 import ImageProjectA4 from '../Style/Images/Project/Exterior-0.jpg';
-import ImageProjectB3 from '../Style/Images/Project/Immeuble-0.jpg';
+import ImageProjectB3 from '../Style/Images/Project/City-0.jpg';
 // import ImageProjectC1 from '../Style/Images/Project/Interior-1-1.jpg';
 import ImageProjectC7 from '../Style/Images/Project/Interior-1-2.jpg';
 import ImageProjectD1 from '../Style/Images/Project/NFT-1.jpg';
@@ -48,7 +48,7 @@ function Services() {
                 TheGalerieElements={
                     <div className='project_container'>
                         <OneGalerieElement image={ImageProjectA4} title={'Design de Maison Moderne'} link={'/SmallHouse1'} date={'15 avril, 2022'} />
-                        <OneGalerieElement image={ImageProjectB3} title={"Visualisation Extérieur d'Immeuble"} link={"/Immeuble1"} date={'27 Mai, 2022'} />
+                        <OneGalerieElement image={ImageProjectB3} title={"Visualisation Extérieur d'Immeuble"} link={"/City1"} date={'27 Mai, 2022'} />
                         <OneGalerieElement image={ImageProjectE7} title={'Design pour les Commerces'} link={'/Pharmacie1'} date={'27 Mai, 2022'} />
                         <OneGalerieElement image={ImageProjectC7} title={'Interior Design'} link={'/Interior1'} date={'03 Juin, 2022'} />
                     </div>

@@ -41,7 +41,6 @@ function SmallHouse1({ }) {
             setTheImageContainer(true);
         }
     }
-
     return (
         <Fragment>
             {TheImageContainer &&
@@ -55,7 +54,6 @@ function SmallHouse1({ }) {
                     </div>
                 </div>
             }
-
             <div className='Villa_Teranga_Al_Amin_container'>
                 <div className='project_display'>
                     <h1 className='project_title'>
@@ -70,7 +68,6 @@ function SmallHouse1({ }) {
                     <a className='the_links' href='https://archviz-villa-teranga-al-amine.netlify.app/' target="_blank">
                         Experience VR/AR <ion-icon name="arrow-forward-outline"></ion-icon>
                     </a>
-
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC1} width='100%' />
                     </div>

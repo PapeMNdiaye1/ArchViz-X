@@ -17,7 +17,7 @@ import Touba from './Pages/Projects/Touba';
 import Pharmacie1 from './Pages/Projects/Pharmacie_1';
 import Pharmacie2 from './Pages/Projects/Pharmacie_2';
 import Gym from './Pages/Projects/Gym';
-import Immeuble1 from './Pages/Projects/Immeuble_1';
+import City1 from './Pages/Projects/Cité';
 import MSAD from './Pages/Projects/MSAD';
 import Villa from './Pages/Projects/Villa_A';
 import Villa_Saly from './Pages/Projects/Villa_B';
@@ -73,7 +73,7 @@ function App() {
             <Route exact path="/Pharmacie1" element={<Pharmacie1 />} />
             <Route exact path="/Pharmacie2" element={<Pharmacie2 />} />
             <Route exact path="/Gym" element={<Gym />} />
-            <Route exact path="/Immeuble1" element={<Immeuble1 />} />
+            <Route exact path="/City1" element={<City1 />} />
             <Route exact path="/MSAD" element={<MSAD />} />
             <Route exact path="/Villa" element={<Villa />} />
             <Route exact path="/Villa-Saly" element={<Villa_Saly />} />
