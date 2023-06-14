@@ -73,7 +73,11 @@
             width: 60vw;
             height: auto;
             margin-bottom: 3em;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
         }
+
 
         p {
             width: 60vw;

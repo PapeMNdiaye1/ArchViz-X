@@ -73,30 +73,23 @@ function City1({ }) {
                         <img onClick={displayImage} src={ImageProjectC9} width='100%' alt='Design de Maison Moderne - 9' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC5} width='100%' alt='Design de Maison Moderne - 5' />
-                    </div>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC6} width='100%' alt='Design de Maison Moderne - 6' />
+                        <img onClick={displayImage} src={ImageProjectC5} width='47%' alt='Design de Maison Moderne - 5' />
+                        <img onClick={displayImage} src={ImageProjectC6} width='47%' alt='Design de Maison Moderne - 6' />
                     </div>
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC2} width='100%' alt='Design de Maison Moderne - 2' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC3} width='100%' alt='Design de Maison Moderne - 3' />
-                    </div>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC4} width='100%' alt='Design de Maison Moderne - 4' />
+                        <img onClick={displayImage} src={ImageProjectC3} width='47%' alt='Design de Maison Moderne - 3' />
+                        <img onClick={displayImage} src={ImageProjectC4} width='47%' alt='Design de Maison Moderne - 4' />
                     </div>
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC1} width='100%' alt='Design de Maison Moderne - 1' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC7} width='100%' alt='Design de Maison Moderne - 7' />
+                        <img onClick={displayImage} src={ImageProjectC7} width='47%' alt='Design de Maison Moderne - 7' />
+                        <img onClick={displayImage} src={ImageProjectC8} width='47%' alt='Design de Maison Moderne - 8' />
                     </div>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC8} width='100%' alt='Design de Maison Moderne - 8' />
-                    </div>
-
                 </div>
             </div>
         </Fragment>

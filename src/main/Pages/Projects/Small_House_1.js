@@ -78,10 +78,8 @@ function SmallHouse1({ }) {
                         <img onClick={displayImage} src={ImageProjectC1} width='100%' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC2} width='100%' />
-                    </div>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC3} width='100%' />
+                        <img onClick={displayImage} src={ImageProjectC2} width='47%' />
+                        <img onClick={displayImage} src={ImageProjectC3} width='47%' />
                     </div>
                     <h1 className='project_title'>
                         Clay Renders

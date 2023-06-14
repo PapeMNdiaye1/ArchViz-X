@@ -86,6 +86,13 @@ function Interior1({ }) {
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC3} width='100%' />
                     </div>
+                    <div className='TheImageContainer'>
+                        <img onClick={displayImage} src={ImageProjectC2} width='47%' alt='Interior Decoration - 1' />
+                        <img onClick={displayImage} src={ImageProjectC1} width='47%' alt='Interior Decoration - 2' />
+                    </div>
+                    <div className='TheImageContainer'>
+                        <img onClick={displayImage} src={ImageProjectC4} width='100%' alt='Interior Decoration - 3' />
+                    </div>
                     <h1 className='project_title'>
                         Animation                    </h1>
                     <div className='the_video'>
@@ -115,27 +122,15 @@ function Interior1({ }) {
                             encrypted-media; gyroscope;
                             picture-in-picture"
                             allowfullscreen>
-
                         </iframe>
                     </div>
 
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC2} width='100%' alt='Interior Decoration - 1' />
-                    </div>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC1} width='100%' alt='Interior Decoration - 2' />
-                    </div>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC4} width='100%' alt='Interior Decoration - 3' />
-                    </div>
                     <h1 className='project_title'>
                         Clay Renders
                     </h1>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC6} width='100%' alt='Interior Decoration - 4' />
-                    </div>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC7} width='100%' alt='Interior Decoration - 5' />
+                        <img onClick={displayImage} src={ImageProjectC6} width='47%' alt='Interior Decoration - 4' />
+                        <img onClick={displayImage} src={ImageProjectC7} width='47%' alt='Interior Decoration - 5' />
                     </div>
 
                 </div>

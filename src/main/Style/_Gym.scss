@@ -39,6 +39,8 @@
             height: auto;
             margin-bottom: 3em;
             cursor: pointer;
+            display: flex;
+            justify-content: space-between;
         }
 
         p {

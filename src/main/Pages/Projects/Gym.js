@@ -70,17 +70,15 @@ function Pharmacie1({ }) {
                         <img onClick={displayImage} src={ImageProjectC1} width='100%' alt='  Pharmacie Design - 2' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC2} width='100%' alt='  Pharmacie Design - 3' />
-                    </div>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC3} width='100%' alt='  Pharmacie Design - 4' />
+                        <img onClick={displayImage} src={ImageProjectC2} width='47%' alt='  Pharmacie Design - 3' />
+                        <img onClick={displayImage} src={ImageProjectC3} width='47%' alt='  Pharmacie Design - 4' />
                     </div>
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC4} width='100%' alt='  Pharmacie Design - 5' />
                     </div>
-                    <div className='TheImageContainer'>
+                    {/* <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC5} width='100%' alt='  Pharmacie Design - 1' />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </Fragment>

@@ -11,32 +11,32 @@ import ImageProjectG1 from '../Style/Images/Project/MSAD_2.jpg';
 
 
 import ImageProjectH1 from '../Style/Images/Project/Villa_A-1.jpg';
-import ImageProjectH2 from '../Style/Images/Project/Villa_A-2.jpg';
-import ImageProjectH3 from '../Style/Images/Project/Villa_A-3.jpg';
+// import ImageProjectH2 from '../Style/Images/Project/Villa_A-2.jpg';
+// import ImageProjectH3 from '../Style/Images/Project/Villa_A-3.jpg';
 
-import ImageProjectI1 from '../Style/Images/Project/Villa_B-1.jpg';
+// import ImageProjectI1 from '../Style/Images/Project/Villa_B-1.jpg';
 import ImageProjectI2 from '../Style/Images/Project/Villa_B-2.jpg';
-import ImageProjectI3 from '../Style/Images/Project/Villa_B-3.jpg';
-import ImageProjectI4 from '../Style/Images/Project/Villa_B-4.jpg';
+// import ImageProjectI3 from '../Style/Images/Project/Villa_B-3.jpg';
+// import ImageProjectI4 from '../Style/Images/Project/Villa_B-4.jpg';
 
 import ImageProjectJ1 from '../Style/Images/Project/Pharmacie_B-1.jpg';
-import ImageProjectJ2 from '../Style/Images/Project/Pharmacie_B-2.jpg';
-import ImageProjectJ3 from '../Style/Images/Project/Pharmacie_B-3.jpg';
-import ImageProjectJ4 from '../Style/Images/Project/Pharmacie_B-4.jpg';
-import ImageProjectJ5 from '../Style/Images/Project/Pharmacie_B-5.jpg';
+// import ImageProjectJ2 from '../Style/Images/Project/Pharmacie_B-2.jpg';
+// import ImageProjectJ3 from '../Style/Images/Project/Pharmacie_B-3.jpg';
+// import ImageProjectJ4 from '../Style/Images/Project/Pharmacie_B-4.jpg';
+// import ImageProjectJ5 from '../Style/Images/Project/Pharmacie_B-5.jpg';
 
-import ImageProjectK1 from '../Style/Images/Project/Pharmacie_C-1.jpg';
-import ImageProjectK2 from '../Style/Images/Project/Pharmacie_C-2.jpg';
-import ImageProjectK3 from '../Style/Images/Project/Pharmacie_C-3.jpg';
+// import ImageProjectK1 from '../Style/Images/Project/Pharmacie_C-1.jpg';
+// import ImageProjectK2 from '../Style/Images/Project/Pharmacie_C-2.jpg';
+// import ImageProjectK3 from '../Style/Images/Project/Pharmacie_C-3.jpg';
 import ImageProjectK4 from '../Style/Images/Project/Pharmacie_C-4.jpg';
-import ImageProjectK5 from '../Style/Images/Project/Pharmacie_C-5.jpg';
+// import ImageProjectK5 from '../Style/Images/Project/Pharmacie_C-5.jpg';
 
 import ImageProjectL1 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg';
-import ImageProjectL2 from '../Style/Images/Project/Villa_Teranga_Al_Amin-2.jpg';
+// import ImageProjectL2 from '../Style/Images/Project/Villa_Teranga_Al_Amin-2.jpg';
 // import ImageProjectL3 from '../Style/Images/Project/Villa_Teranga_Al_Amin-3.jpg';
-import ImageProjectL4 from '../Style/Images/Project/Villa_Teranga_Al_Amin-4.jpg';
+// import ImageProjectL4 from '../Style/Images/Project/Villa_Teranga_Al_Amin-4.jpg';
 // import ImageProjectL5 from '../Style/Images/Project/Villa_Teranga_Al_Amin-5.jpg';
-import ImageProjectL6 from '../Style/Images/Project/Villa_Teranga_Al_Amin-6.jpg';
+// import ImageProjectL6 from '../Style/Images/Project/Villa_Teranga_Al_Amin-6.jpg';
 
 
 function Traveaux() {

@@ -73,10 +73,8 @@ function Hangar_1({ }) {
                         <img onClick={displayImage} src={ImageProjectC2} width='100%' alt=' Maquette Hangar Photovoltaïque - 1' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC4} width='100%' alt=' Maquette Hangar Photovoltaïque - 2' />
-                    </div>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC3} width='100%' alt=' Maquette Hangar Photovoltaïque - 3' />
+                        <img onClick={displayImage} src={ImageProjectC4} width='47%' alt=' Maquette Hangar Photovoltaïque - 2' />
+                        <img onClick={displayImage} src={ImageProjectC3} width='47%' alt=' Maquette Hangar Photovoltaïque - 3' />
                     </div>
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC1} width='100%' alt=' Maquette Hangar Photovoltaïque - 4' />

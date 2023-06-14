@@ -72,19 +72,15 @@ function Pharmacie1({ }) {
                         <img onClick={displayImage} src={ImageProjectC5} width='100%' alt='  Pharmacie Design - 1' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC1} width='100%' alt='  Pharmacie Design - 2' />
-                    </div>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC2} width='100%' alt='  Pharmacie Design - 3' />
+                        <img onClick={displayImage} src={ImageProjectC1} width='47%' alt='  Pharmacie Design - 2' />
+                        <img onClick={displayImage} src={ImageProjectC2} width='47%' alt='  Pharmacie Design - 3' />
                     </div>
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC3} width='100%' alt='  Pharmacie Design - 4' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC4} width='100%' alt='  Pharmacie Design - 5' />
-                    </div>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC6} width='100%' alt='  Pharmacie Design - 6' />
+                        <img onClick={displayImage} src={ImageProjectC4} width='47%' alt='  Pharmacie Design - 5' />
+                        <img onClick={displayImage} src={ImageProjectC6} width='47%' alt='  Pharmacie Design - 6' />
                     </div>
                     <h1 className='project_title'>
                         Clay Renders
@@ -93,10 +89,8 @@ function Pharmacie1({ }) {
                         <img onClick={displayImage} src={ImageProjectC7} width='100%' alt='  Pharmacie Design - 7' />
                     </div>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC8} width='100%' alt='  Pharmacie Design - 8' />
-                    </div>
-                    <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC9} width='100%' alt='  Pharmacie Design - 9' />
+                        <img onClick={displayImage} src={ImageProjectC8} width='47%' alt='  Pharmacie Design - 8' />
+                        <img onClick={displayImage} src={ImageProjectC9} width='47%' alt='  Pharmacie Design - 9' />
                     </div>
                 </div>
             </div>

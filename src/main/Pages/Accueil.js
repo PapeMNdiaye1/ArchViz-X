@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import ImageProjectA1 from '../Style/Images/Project/Exterior-1.jpg';
 
+import ImageProjectB1 from '../Style/Images/Project/City-8.jpg';
+
 import ImageProjectC1 from '../Style/Images/Project/Interior-1-1.jpg';
 import ImageProjectC2 from '../Style/Images/Project/Interior-1-2.jpg';
 import ImageProjectC3 from '../Style/Images/Project/Interior-1-3.jpg';
@@ -40,6 +42,7 @@ import ImageProjectL2 from '../Style/Images/Project/Villa_Teranga_Al_Amin-2.jpg'
 import ImageProjectL3 from '../Style/Images/Project/Villa_Teranga_Al_Amin-3.jpg';
 import ImageProjectL4 from '../Style/Images/Project/Villa_Teranga_Al_Amin-4.jpg';
 import ImageProjectL6 from '../Style/Images/Project/Villa_Teranga_Al_Amin-6.jpg';
+
 
 
 
@@ -126,9 +129,9 @@ function Accueil({ GetImageToApp }) {
                     description={"À l'aide des logiciels de dernière génération et de notre savoir-faire dans le domaine de l’architecture d’intérieur. Nous vous aidons dans l’aménagement de vos espaces."}
                     color={'#EAEAEA'} textcolor={'#222'} theKey={3} side={'right'} link={'/Interior1'} The_Experience={true} The_Experience_Link={'https://papemndiaye1.github.io/ArchViz_Interior_Design_1/'} />
 
-                <OneBigProject title={'Espace Sportif'} image={ImageProjectK1}
-                    description={"Nous avons une vaste expérience dans l'aménagement d'espaces communs et de bureaux, quelle que soient leur typologie, leur vocation, leur stratégie et leur positionnement."}
-                    color={'#c6b282'} textcolor={'#222'} theKey={4} link={'/Gym'} side={'left'} The_Experience={false} />
+                <OneBigProject title={'Cité El Hadj Amadou BA'} image={ImageProjectB1}
+                    description={"Ce projet comprend des villas familiales, des bâtiments commerciaux et résidentiels ainsi que des lieux publics. Notre travail se partage à parts égales entre les animations architecturales et les rendus 3D. Nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs."}
+                    color={'#EAEAEA'} textcolor={'#222'} theKey={4} link={'/City1'} side={'left'} The_Experience={false} />
 
                 <OneBigProject title={'La 3D dans le domaine des Industries'} image={ImageProjectF2}
                     description={"Le rendu et l'animation avec des temps de production de plus en plus rapide ont ouvert la porte à un monde de variations infinies dans la conception graphique adaptée à vos demandes uniques."}
@@ -142,6 +145,9 @@ function Accueil({ GetImageToApp }) {
                     description={"Des designs Modernes, épurés, etc… nous mettons en œuvre différentes approches pour une optimisation de vos espaces extérieurs et intérieurs. Pour se faire nous utilisons différents logiciels avec les dernières innovations pour des rendus d’images à la fois réalistes et immersives."}
                     color={'#EAEAEA'} textcolor={'#222'} The_Experience={true} The_Experience_Link={'https://villa-r-1.netlify.app/'} theKey={7} link={'/Villa-Saly'} side={'right'} />
 
+                <OneBigProject title={'Espace Sportif'} image={ImageProjectK1}
+                    description={"Nous avons une vaste expérience dans l'aménagement d'espaces communs et de bureaux, quelle que soient leur typologie, leur vocation, leur stratégie et leur positionnement."}
+                    color={'#c6b282'} textcolor={'#222'} theKey={8} link={'/Gym'} side={'left'} The_Experience={false} />
             </section>
             <section className='galerie_presantation'>
                 <Link className='nos_réalisations' to={'./Traveaux'}>

@@ -2973,10 +2973,10 @@
 }
 
 .display_image_container div {
-  width: 67%;
+  width: 50%;
   background-color: var(--colorX);
   border: 0.5em solid var(--colorX);
-  border-bottom: 1.6em solid var(--colorX);
+  border-bottom: 1em solid var(--colorX);
   border-radius: .2em;
 }
 
@@ -3178,6 +3178,13 @@
   width: 60vw;
   height: auto;
   margin-bottom: 3em;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Interior_1_container .project_display p {
@@ -3265,6 +3272,12 @@
   height: auto;
   margin-bottom: 3em;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .SmallHouse_1_container .project_display p {
@@ -3347,6 +3360,12 @@
   height: auto;
   margin-bottom: 3em;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Hangar_1_container .project_display p {
@@ -3607,6 +3626,12 @@
   height: auto;
   margin-bottom: 3em;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Pharmacie_1_container .project_display p {
@@ -3689,6 +3714,12 @@
   height: auto;
   margin-bottom: 3em;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Pharmacie_2_container .project_display p {
@@ -3771,6 +3802,12 @@
   height: auto;
   margin-bottom: 3em;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Pharmacie_3_container .project_display p {
@@ -3853,6 +3890,12 @@
   height: auto;
   margin-bottom: 3em;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Immeuble_1_container .project_display p {
@@ -3983,6 +4026,12 @@
   margin-bottom: 3em;
   overflow: hidden;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .MSAD_container .project_display p {
@@ -4081,6 +4130,12 @@
   height: auto;
   margin-bottom: 3em;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Villa_A_container .project_display p {
@@ -4194,6 +4249,12 @@
   height: auto;
   margin-bottom: 3em;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Villa_B_container .project_display p {
@@ -4313,6 +4374,12 @@
   height: auto;
   margin-bottom: 3em;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Villa_Teranga_Al_Amin_container .project_display p {

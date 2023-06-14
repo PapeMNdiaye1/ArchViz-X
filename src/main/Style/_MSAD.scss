@@ -67,6 +67,8 @@
             margin-bottom: 3em;
             overflow: hidden;
             cursor: pointer;
+            display: flex;
+            justify-content: space-between;
         }
 
         p {
