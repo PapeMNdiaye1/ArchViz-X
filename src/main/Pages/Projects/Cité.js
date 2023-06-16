@@ -18,6 +18,8 @@ function City1({ }) {
 
     useEffect(() => {
 
+
+
         let Page_slider = document.querySelector('.page_title_slider')
         Page_slider.style.opacity = `0`
 

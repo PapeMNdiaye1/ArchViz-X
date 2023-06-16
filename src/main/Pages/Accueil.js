@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import ImageProjectA1 from '../Style/Images/Project/Exterior-1.jpg';
 
 import ImageProjectB1 from '../Style/Images/Project/City-8.jpg';
+import ImageProjectB2 from '../Style/Images/Project/City-1.jpg';
+import ImageProjectB3 from '../Style/Images/Project/City-3.jpg';
+import ImageProjectB9 from '../Style/Images/Project/City-9.jpg';
 
 import ImageProjectC1 from '../Style/Images/Project/Interior-1-1.jpg';
 import ImageProjectC2 from '../Style/Images/Project/Interior-1-2.jpg';
@@ -265,15 +268,15 @@ function TheGallery({ GetImageOnAccueil }) {
         <div className="the_galerie_container">
 
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC3} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI2} title={'Villa Saly'} date={'06 Juin, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL6} title={"Villa Al Amin"} date={'26 Janvier, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa-Saly'} image={ImageProjectI1} title={'Villa Saly'} date={'06 Juin, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL1} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Villa'} image={ImageProjectH2} title={'Immeuble Thiès Grand Standing'} date={'15 Avril, 2022'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB2} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
 
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Touba'} image={ImageProjectD1} title={'Maquette de la Grande Mosquée de Touba'} date={'09 Mars, 2022'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Gym'} image={ImageProjectK1} title={'Espace Sportif'} date={'07 Mai, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Gym'} image={ImageProjectK5} title={'Espace Sportif'} date={'07 Mai, 2023'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL4} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB3} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Interior1'} image={ImageProjectC4} title={'Décoration Interieur'} date={'03 Juin, 2022'} />
 
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE4} title={'Décoration Interieur'} date={'27 Mai, 2022'} />
@@ -284,11 +287,11 @@ function TheGallery({ GetImageOnAccueil }) {
 
             <OneGalerieElement giveImageId={onClickOnImage} link={'/MSAD'} image={ImageProjectG2} title={'Manufacture des Arts Décoratifs de Thiés'} date={'03 Septembre, 2022'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE2} title={'Pharmacie Design'} date={'27 Mai, 2022'} />
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie2'} image={ImageProjectJ1} title={'Design pour les Commerces'} date={'27 Mai, 2012'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/City1'} image={ImageProjectB9} title={'Cité El Hadj Amadou BA'} date={'12 Juin, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/SmallHouse1'} image={ImageProjectA1} title={'Design de Maison Moderne'} date={'15 avril, 2022'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Hangar1'} image={ImageProjectF3} title={'Maquette Hangar Photovoltaïque'} date={'29 Juin, 2021'} />
 
-            <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE1} title={'Pharmacie Design'} date={'27 Mai, 2022'} />
+            <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL4} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/VillaTerangaAlAmin'} image={ImageProjectL2} title={'Villa Al Amin'} date={'26 Janvier, 2023'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Pharmacie1'} image={ImageProjectE3} title={'Pharmacie Design'} date={'27 Mai, 2022'} />
             <OneGalerieElement giveImageId={onClickOnImage} link={'/Gym'} image={ImageProjectK2} title={'Espace Sportif'} date={'07 Mai, 2023'} />
