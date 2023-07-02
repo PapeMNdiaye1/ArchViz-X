@@ -558,15 +558,17 @@
             min-height: auto;
 
             .One_Project_In_Home {
-                min-height: 36em;
+                min-height: 28em;
                 height: auto;
                 grid-gap: 0em;
+                padding-bottom: 12%;
 
                 .image_container {
                     width: 100%;
                     background-position: center;
                     background-size: 100%;
                     background-repeat: no-repeat;
+                    border-radius: 1em;
 
                     &:hover {
                         background-size: 100%;

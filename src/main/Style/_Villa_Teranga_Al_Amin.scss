@@ -71,6 +71,18 @@
             cursor: pointer;
             display: flex;
             justify-content: space-between;
+
+            img {
+                transition-duration: .3s;
+                transform: scale(1);
+                border-radius: 1em;
+
+                &:hover {
+                    // box-shadow: #86c5e5 0 0 5px, inset #86c5e5 0 0 5px;
+                    transform: scale(1.03);
+                }
+
+            }
         }
 
         p {

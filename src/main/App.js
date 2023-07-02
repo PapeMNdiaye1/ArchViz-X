@@ -6,7 +6,7 @@ import TopBare from './TopBare';
 import { Accueil } from './Pages/Accueil';
 import { TheFooter } from './Pages/Accueil';
 import Gallery from './Pages/Galerie';
-import Traveaux from './Pages/Traveaux';
+import Travaux from './Pages/Travaux';
 import Service from './Pages/Service';
 import Contact from './Pages/Contact';
 
@@ -56,7 +56,7 @@ function App() {
             <Route exact path="/"
               element={<Accueil GetImageToApp={GetImage} />}
             />
-            <Route exact path="/Traveaux" element={<Traveaux />} />
+            <Route exact path="/Travaux" element={<Travaux />} />
             <Route exact path="/Service" element={<Service />} />
             <Route exact path="/Contact" element={<Contact />} />
             <Route exact path="/Galerie" element={<Gallery

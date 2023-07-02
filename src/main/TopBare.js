@@ -56,7 +56,7 @@ function TopBare({ onChangeTab }) {
                             ACCUEIL
                         </div>
                         <div className='slides' >
-                            TRAVEAUX
+                            TRAVAUX
                         </div>
                         <div className='slides' >
                             GALERIE
@@ -77,7 +77,7 @@ function TopBare({ onChangeTab }) {
             <div id='Top-bare-slider-container'>
                 <nav className='Menu-container'>
                     <OneSection parentCallback={callback} link={'/'} title={'ACCUEIL'} />
-                    <OneSection parentCallback={callback} link={'/Traveaux'} title={'TRAVEAUX'} />
+                    <OneSection parentCallback={callback} link={'/Travaux'} title={'TRAVAUX'} />
                     <OneSection parentCallback={callback} link={'/Gallery'} title={'GALERIE'} />
                     <OneSection parentCallback={callback} link={'/Service'} title={'SERVICE'} />
                     <OneSection parentCallback={callback} link={'/Contact'} title={'CONTACT'} />
@@ -118,8 +118,8 @@ function OneSection({ title, parentCallback, link }) {
             case "ACCUEIL":
                 setTheLink('/')
                 break;
-            case "TRAVEAUX":
-                setTheLink('/Traveaux')
+            case "TRAVAUX":
+                setTheLink('/Travaux')
                 break;
             case "SERVICE":
                 setTheLink('/Service')

@@ -1,9 +1,9 @@
-#Traveaux {
+#Travaux {
     width: 100%;
     height: auto;
     z-index: 1;
 
-    .Traveaux-Header {
+    .Travaux-Header {
         width: 100%;
         height: 20em;
         @include cent();
@@ -165,8 +165,8 @@
 
 
 @media all and (max-width: 1000px) {
-    #Traveaux {
-        .Traveaux-Header {
+    #Travaux {
+        .Travaux-Header {
             width: 100%;
             height: auto;
             @include cent();
@@ -196,15 +196,17 @@
             min-height: auto;
 
             .One_Project_In_Home {
-                min-height: 36em;
+                min-height: 28em;
                 height: auto;
                 grid-gap: 0em;
+                padding-bottom: 12%;
 
                 .image_container {
                     width: 100%;
                     background-position: center;
                     background-size: 100%;
                     background-repeat: no-repeat;
+                    border-radius: 1em;
 
                     &:hover {
                         background-size: 100%;

@@ -153,7 +153,7 @@ function Accueil({ GetImageToApp }) {
                     color={'#c6b282'} textcolor={'#222'} theKey={8} link={'/Gym'} side={'left'} The_Experience={false} />
             </section>
             <section className='galerie_presantation'>
-                <Link className='nos_réalisations' to={'./Traveaux'}>
+                <Link className='nos_réalisations' to={'./Travaux'}>
                     Nos Réalisations   <ion-icon name="arrow-forward-outline"></ion-icon>
                 </Link>
                 <div className='galerie_container'>
@@ -491,8 +491,8 @@ function TheFooter({ }) {
                 <Link className='menu_elemant' to={'/'} onClick={onClickOnTab}>
                     Accueil
                 </Link>
-                <Link className='menu_elemant' to={'/Traveaux'} onClick={onClickOnTab}>
-                    Traveaux
+                <Link className='menu_elemant' to={'/Travaux'} onClick={onClickOnTab}>
+                    Travaux
                 </Link>
                 <Link className='menu_elemant' to={'/Service'} onClick={onClickOnTab}>
                     Services

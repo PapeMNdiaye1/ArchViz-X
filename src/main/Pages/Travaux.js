@@ -39,7 +39,7 @@ import ImageProjectL1 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg'
 // import ImageProjectL6 from '../Style/Images/Project/Villa_Teranga_Al_Amin-6.jpg';
 
 
-function Traveaux() {
+function Travaux() {
 
     useEffect(() => {
 
@@ -64,8 +64,8 @@ function Traveaux() {
 
 
     return (
-        <div id="Traveaux">
-            <section className='Traveaux-Header'>
+        <div id="Travaux">
+            <section className='Travaux-Header'>
                 <h1 className='visualization-projects'>
                     Nos Réalisations
                 </h1>
@@ -77,7 +77,7 @@ function Traveaux() {
             <section className='AccueilBigProjectsSection'>
 
                 <OneBigProject title={'Visualisation de projets immobiliers'} image={ImageProjectL1}
-                    description={"Les visites virtuelles offrent de nombreux avantages pour les acheteurs, propriétaires et agents immobiliers. Pour les acheteurs, elles permettent de visualiser les propriétés sans se déplacer. Pour les agents immobiliers, elles peuvent diffuser les propriétés à plus de gens, ce qui peut conduire à une vente plus rapide. Les visites virtuelles sont une solution pratique pour toutes les parties impliquées dans le processus immobilier."}
+                    description={"Les visites virtuelles offrent de nombreux avantages pour les acheteurs, propriétaires et agents immobiliers. Pour les acheteurs, elles permettent de visualiser les propriétés sans se déplacer. Pour les agents immobiliers, elles peuvent diffuser les propriétés à plus de gens, ce qui peut conduire à une vente plus rapide..."}
                     color={'#664f3c'} textcolor={'#f1f1f1'} theKey={1} link={'/VillaTerangaAlAmin'} side={'left'}
                     The_Experience={true} The_Experience_Link={'https://archviz-villa-teranga-al-amine.netlify.app/'}
                 />
@@ -131,4 +131,4 @@ function Traveaux() {
     );
 }
 
-export default Traveaux;
+export default Travaux;
