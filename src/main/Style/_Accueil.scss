@@ -645,10 +645,14 @@
 
         //!#####################################################################
         .the_galerie_container {
-            grid-template-columns: 1fr;
-            grid-template-rows: repeat(25, 1fr);
+
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(13, 1fr);
+            height: 95em;
 
             .one_galerie_element {
+                @include cent();
+
                 &:hover {
                     img {
                         transform: scale(1);
