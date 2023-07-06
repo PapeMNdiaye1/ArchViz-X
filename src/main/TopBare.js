@@ -6,7 +6,6 @@ function TopBare({ onChangeTab }) {
 
     useEffect(() => {
         let allMenuSection = document.querySelectorAll('.One-Section')
-        console.log(allMenuSection);
 
         for (let i = 0; i < allMenuSection.length; i++) {
             allMenuSection[allMenuSection.length - (i + 1)].style.transitionDelay = `${i * .1}s`;
@@ -79,7 +78,6 @@ function TopBare({ onChangeTab }) {
                     <OneSection parentCallback={callback} link={'/'} title={'ACCUEIL'} />
                     <OneSection parentCallback={callback} link={'/Travaux'} title={'TRAVAUX'} />
                     <OneSection parentCallback={callback} link={'/Gallery'} title={'GALERIE'} />
-                    <OneSection parentCallback={callback} link={'/Service'} title={'SERVICE'} />
                     <OneSection parentCallback={callback} link={'/Contact'} title={'CONTACT'} />
                 </nav>
                 <div className="network_container">

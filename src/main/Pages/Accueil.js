@@ -78,9 +78,9 @@ function Accueil({ GetImageToApp }) {
                 let WindowInnerHeight = window.innerHeight;
                 let TheScrollTopInP = (TheScrollTop / (TheScrollHeight - WindowInnerHeight)) * 100;
 
-                ThesliderImg.forEach(element => {
-                    element.style.backgroundPositionY = `-${TheScrollTopInP * 10}%`;
-                });
+                // ThesliderImg.forEach(element => {
+                //     element.style.backgroundPositionY = `-${TheScrollTopInP * 10}%`;
+                // });
             })
         }
         return () => {
