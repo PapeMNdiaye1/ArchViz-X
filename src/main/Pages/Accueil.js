@@ -15,7 +15,7 @@ import ImageProjectC4 from '../Style/Images/Project/Interior-1-4.jpg';
 
 import ImageProjectD1 from '../Style/Images/Project/NFT-1.jpg';
 
-import ImageProjectE1 from '../Style/Images/Project/Pharmacie-1.jpg';
+// import ImageProjectE1 from '../Style/Images/Project/Pharmacie-1.jpg';
 import ImageProjectE2 from '../Style/Images/Project/Pharmacie-2.jpg';
 import ImageProjectE3 from '../Style/Images/Project/Pharmacie-3.jpg';
 import ImageProjectE4 from '../Style/Images/Project/Pharmacie-4.jpg';
@@ -26,14 +26,13 @@ import ImageProjectF3 from '../Style/Images/Project/Hangar-3.jpg';
 
 import ImageProjectG2 from '../Style/Images/Project/MSAD_2.jpg';
 
-import ImageProjectH2 from '../Style/Images/Project/Villa_A-2.jpg';
+// import ImageProjectH2 from '../Style/Images/Project/Villa_A-2.jpg';
 import ImageProjectH3 from '../Style/Images/Project/Villa_A-3.jpg';
 
-import ImageProjectI1 from '../Style/Images/Project/Villa_B-1.jpg';
+// import ImageProjectI1 from '../Style/Images/Project/Villa_B-1.jpg';
 import ImageProjectI2 from '../Style/Images/Project/Villa_B-2.jpg';
 import ImageProjectI3 from '../Style/Images/Project/Villa_B-3.jpg';
 
-import ImageProjectJ1 from '../Style/Images/Project/Pharmacie_B-1.jpg';
 
 import ImageProjectK2 from '../Style/Images/Project/Pharmacie_C-2.jpg';
 import ImageProjectK1 from '../Style/Images/Project/Pharmacie_C-1.jpg';
@@ -78,9 +77,9 @@ function Accueil({ GetImageToApp }) {
                 let WindowInnerHeight = window.innerHeight;
                 let TheScrollTopInP = (TheScrollTop / (TheScrollHeight - WindowInnerHeight)) * 100;
 
-                // ThesliderImg.forEach(element => {
-                //     element.style.backgroundPositionY = `-${TheScrollTopInP * 10}%`;
-                // });
+                ThesliderImg.forEach(element => {
+                    element.style.backgroundPositionY = `-${TheScrollTopInP * 10}%`;
+                });
             })
         }
         return () => {
@@ -93,7 +92,7 @@ function Accueil({ GetImageToApp }) {
 
     return (
         <div id="Accueil">
-            <AccueilSlider />
+            {/* <AccueilSlider /> */}
             <section className='archviz_presantation' >
                 <h2 className='qui_somme_nous' >
                     Qui sommes-nous ?
@@ -359,7 +358,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                             }} className='title'>
                             {title}
                         </h3>
-                        <p
+                        <div
                             className='description'>
                             <div
                                 style={{
@@ -388,7 +387,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                             ) : (
                                 <div></div>
                             )}
-                        </p>
+                        </div>
                     </div>
                     <div
                         role="img" alt={title}
@@ -413,7 +412,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                             className='title' >
                             {title}
                         </h3>
-                        <p
+                        <div
                             className='description'>
                             <div
                                 style={{
@@ -443,7 +442,7 @@ function OneBigProject({ color, title, description, side, textcolor, theKey, ima
                             ) : (
                                 <div></div>
                             )}
-                        </p>
+                        </div>
                     </div>
                     <div
                         role="img" alt={title}
