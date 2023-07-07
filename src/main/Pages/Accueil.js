@@ -92,7 +92,7 @@ function Accueil({ GetImageToApp }) {
 
     return (
         <div id="Accueil">
-            {/* <AccueilSlider /> */}
+            <AccueilSlider />
             <section className='archviz_presantation' >
                 <h2 className='qui_somme_nous' >
                     Qui sommes-nous ?
@@ -228,10 +228,10 @@ function AccueilSlider() {
 
     return (
         <div className="Accueil_Slider">
-            <Slider giveSliderKey={CreateSliderBtn} theKey={1} date={'27 Mai, 2022'} title={<p>Visualisations 3D <dr />"Rendus Images <br />& Animations"</p>} />
-            <Slider giveSliderKey={CreateSliderBtn} theKey={2} date={'09 Mars, 2022'} title={<p>Création De <dr />Maquettes </p>} />
-            <Slider giveSliderKey={CreateSliderBtn} theKey={3} date={'03 Juin, 2022'} title={<p>Réalité <dr /> Virtuel & Experience <dr /> 3D Web</p>} />
-            <Slider giveSliderKey={CreateSliderBtn} theKey={4} date={'27 Mai, 2022'} title={<p>Visualisations <dr /> Architecturals <dr />  Pour Commerces</p>} />
+            <Slider giveSliderKey={CreateSliderBtn} theKey={1} date={'27 Mai, 2022'} title={<p>Visualisations 3D "Rendus Images & Animations"</p>} />
+            <Slider giveSliderKey={CreateSliderBtn} theKey={2} date={'09 Mars, 2022'} title={<p>Création De Maquettes </p>} />
+            <Slider giveSliderKey={CreateSliderBtn} theKey={3} date={'03 Juin, 2022'} title={<p>Réalité Virtuel & Experience 3D Web</p>} />
+            <Slider giveSliderKey={CreateSliderBtn} theKey={4} date={'27 Mai, 2022'} title={<p>Visualisations Architecturals Pour Commerces</p>} />
             <div className='slider_btn_container'>
             </div>
         </div>
