@@ -228,10 +228,10 @@ function AccueilSlider() {
 
     return (
         <div className="Accueil_Slider">
-            <Slider giveSliderKey={CreateSliderBtn} theKey={1} date={'27 Mai, 2022'} title={<p>Visualisations 3D "Rendus Images & Animations"</p>} />
-            <Slider giveSliderKey={CreateSliderBtn} theKey={2} date={'09 Mars, 2022'} title={<p>Création De Maquettes </p>} />
-            <Slider giveSliderKey={CreateSliderBtn} theKey={3} date={'03 Juin, 2022'} title={<p>Réalité Virtuel & Experience 3D Web</p>} />
-            <Slider giveSliderKey={CreateSliderBtn} theKey={4} date={'27 Mai, 2022'} title={<p>Visualisations Architecturals Pour Commerces</p>} />
+            <Slider giveSliderKey={CreateSliderBtn} theKey={1} date={'Sénégal, Dakar'} title={<p>Visualisations 3D "Rendus Images & Animations"</p>} />
+            <Slider giveSliderKey={CreateSliderBtn} theKey={2} date={'Sénégal, Dakar'} title={<p>Création De Maquettes </p>} />
+            <Slider giveSliderKey={CreateSliderBtn} theKey={3} date={'Sénégal, Dakar'} title={<p>Réalité Virtuel & Experience 3D Web</p>} />
+            <Slider giveSliderKey={CreateSliderBtn} theKey={4} date={'Sénégal, Dakar'} title={<p>Visualisations Architecturals Pour Commerces</p>} />
             <div className='slider_btn_container'>
             </div>
         </div>
