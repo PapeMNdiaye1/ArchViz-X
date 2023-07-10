@@ -57,7 +57,7 @@ function App() {
               element={<Accueil GetImageToApp={GetImage} />}
             />
             <Route exact path="/Travaux" element={<Travaux />} />
-            <Route exact path="/Service" element={<Service />} />
+            <Route exact path="/Services" element={<Service />} />
             <Route exact path="/Contact" element={<Contact />} />
             <Route exact path="/Galerie" element={<Gallery
               TheImageToGallery={TheImage}

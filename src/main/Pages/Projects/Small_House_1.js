@@ -7,7 +7,6 @@ import ImageProjectC1 from '../../Style/Images/Project/Exterior-1.jpg';
 import ImageProjectC2 from '../../Style/Images/Project/Exterior-2.jpg';
 import ImageProjectC3 from '../../Style/Images/Project/Exterior-3.jpg';
 import ImageProjectC4 from '../../Style/Images/Project/Exterior-4.jpg';
-import ImageProjectC5 from '../../Style/Images/Project/Exterior-5.jpg';
 
 
 
@@ -87,9 +86,9 @@ function SmallHouse1({ }) {
                     <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC4} width='100%' />
                     </div>
-                    <div className='TheImageContainer'>
+                    {/* <div className='TheImageContainer'>
                         <img onClick={displayImage} src={ImageProjectC5} width='100%' />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </Fragment>

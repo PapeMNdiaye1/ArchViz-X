@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 import ImageProjectA4 from '../Style/Images/Project/Exterior-0.jpg';
 import ImageProjectB3 from '../Style/Images/Project/City-0.jpg';
-// import ImageProjectC1 from '../Style/Images/Project/Interior-1-1.jpg';
 import ImageProjectC7 from '../Style/Images/Project/Interior-1-2.jpg';
 import ImageProjectD1 from '../Style/Images/Project/NFT-1.jpg';
 import ImageProjectE7 from '../Style/Images/Project/Pharmacie-3.jpg';
@@ -13,13 +12,10 @@ import ImageProjectG2 from '../Style/Images/Project/MSAD_2.jpg';
 import ImageProjectL1 from '../Style/Images/Project/Villa_Teranga_Al_Amin-1.jpg';
 import ImageProjectJ1 from '../Style/Images/Project/Villa_B-2.jpg';
 
-
 function Services() {
-
     useEffect(() => {
         let Page_slider = document.querySelector('.page_title_slider')
         Page_slider.style.top = `-300%`
-
 
         let AccueilContainer = document.querySelector(".App_container")
         AccueilContainer.scrollTop = 0;
@@ -31,10 +27,8 @@ function Services() {
             hoverLoaderContainer.style.display = '';
         }, 1500);
 
+        return () => { }
 
-        return () => {
-
-        }
     }, []);
 
     return (
@@ -85,8 +79,6 @@ function Services() {
     );
 }
 
-
-
 function OneService({ color, theServiceTitle, TheGalerieElements, theServiceDescription }) {
     return (
         <div
@@ -97,14 +89,13 @@ function OneService({ color, theServiceTitle, TheGalerieElements, theServiceDesc
             <h2 className='the_title'>
                 {theServiceTitle}
             </h2>
-            <p className='the_descrition'>
+            <div className='the_descrition'>
                 {theServiceDescription}
-            </p>
+            </div>
             {TheGalerieElements}
         </div >
     );
 }
-
 
 function OneGalerieElement({ giveImageId, title, theKey, image, date, link }) {
 

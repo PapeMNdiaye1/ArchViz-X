@@ -8,14 +8,12 @@ import ImageProjectC5 from '../../Style/Images/Project/Pharmacie-5.jpg';
 import ImageProjectC6 from '../../Style/Images/Project/Pharmacie-6.jpg';
 import ImageProjectC7 from '../../Style/Images/Project/Pharmacie-7.jpg';
 import ImageProjectC8 from '../../Style/Images/Project/Pharmacie-8.jpg';
-import ImageProjectC9 from '../../Style/Images/Project/Pharmacie-9.jpg';
 
 function Pharmacie1({ }) {
     const [TheImageContainer, setTheImageContainer] = useState(false);
     const [TheImageInTheContainer, setTheImageInTheContainer] = useState(ImageProjectC1);
 
     useEffect(() => {
-
         let Page_slider = document.querySelector('.page_title_slider')
         Page_slider.style.opacity = `0`
 
@@ -86,11 +84,10 @@ function Pharmacie1({ }) {
                         Clay Renders
                     </h1>
                     <div className='TheImageContainer'>
-                        <img onClick={displayImage} src={ImageProjectC7} width='100%' alt='  Pharmacie Design - 7' />
                     </div>
                     <div className='TheImageContainer'>
+                        <img onClick={displayImage} src={ImageProjectC7} width='47%' alt='  Pharmacie Design - 7' />
                         <img onClick={displayImage} src={ImageProjectC8} width='47%' alt='  Pharmacie Design - 8' />
-                        <img onClick={displayImage} src={ImageProjectC9} width='47%' alt='  Pharmacie Design - 9' />
                     </div>
                 </div>
             </div>
